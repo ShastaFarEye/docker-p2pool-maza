@@ -28,6 +28,7 @@ apt-get install -y python-twisted
 cd /
 git clone https://github.com/ShastaFarEye/p2pool p2pool-maza
 cd p2pool-maza
+touch /p2pool-maza/.firstrun
 mv /tmp/start_p2pool_maza.sh .
 chmod +x start_p2pool_maza.sh
 mkdir /etc/service/p2pool-maza
